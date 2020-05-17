@@ -1,0 +1,54 @@
+<%@page import="java.sql.DriverManager"%>
+<%@page import="java.sql.ResultSet"%>
+<%@page import="java.sql.Statement"%>
+<%@page import="java.sql.Connection"%>
+<%@page import="java.sql.PreparedStatement"%>
+<%
+try{
+	String id = "SELECT * FROM `gestion` where idg="+request.getParameter("IdConcours");
+
+	Class.forName("com.mysql.jdbc.Driver");
+    
+    Connection cn = DriverManager.getConnection("jdbc:mysql://localhost:3306/form","root",""); 
+
+    PreparedStatement statement = cn.createStatement();
+    ResultSet resultSet = statement.executeQuery(id) ;
+    
+ 
+    while (resultSet.next()){
+%>
+<!DOCTYPE html>
+<html>
+<body>
+<h2><font color="red"> Modification des Données </font></h2>
+<form method="post" action="update-process.jsp">
+		<input type="hidden" name="id" value="<%=resultSet.getString("idg") %>">
+		<input type="text" name="id" value="<%=resultSet.getString("idg") %>">
+		<br>
+		Concours:<br>
+		<input type="text" name="first_name" value="<%=resultSet.getString("concours") %>">
+		<br>
+		Date Concours:<br>
+		<input type="text" name="last_name" value="<%=resultSet.getString("dateconcours") %>">
+		<br>
+		Date Limite:<br>
+		<input type="text" name="city_name" value="<%=resultSet.getString("datelimite") %>">
+		<br>
+		Nombre De postes :<br>
+		<input type="text" name="email" value="<%=resultSet.getString("nombredepostes") %>">
+		<br>
+		Statut :<br>
+		<input type="text" name="first_name" value="<%=resultSet.getString("Statut") %>">
+		<br>
+		<br><br>
+		<input type="submit" value="submit">
+</form>
+<%
+}
+cn.close();
+} catch (Exception e) {
+e.printStackTrace();
+}
+%>
+</body>
+</html>

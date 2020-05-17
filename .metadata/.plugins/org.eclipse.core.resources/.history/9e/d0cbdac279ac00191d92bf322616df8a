@@ -1,0 +1,80 @@
+<%@ page pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8" />
+		<link type="text/css" rel="stylesheet" href="inc/gest.css" />
+        <title> Espace Admin</title>
+</head>
+<body>
+   
+        <div>
+            <form method="get" action="CreationCandidat">
+            <h2><font color="brown"> Espace Admin</font></h2>
+              
+			  <fieldset>
+			  <legend>Veuillez selectionnez Concours</legend>
+			    <div>
+			      <input type="checkbox" id="Concours de recrutement des inspecteurs des finances	" name="cnc" value="Concours de recrutement des inspecteurs des finances">
+			      <label for="Concours de recrutement des inspecteurs des finances	">Concours de recrutement des inspecteurs des finances	</label>
+			    </div>
+			    <div>
+			      <input type="checkbox" id="Concours de recrutement des ingénieurs d'etat de 1er grade	" name="cnc" value="Concours de recrutement des ingénieurs d'etat de 1er grade	">
+			      <label for="Concours de recrutement des ingénieurs d'etat de 1er grade	">Concours de recrutement des ingénieurs d'etat de 1er grade	</label>
+			    </div>
+			    <div>
+			      <input type="checkbox" id="Concours de recrutement des Administrateurs de 2eme grade	" name="cnc" value="Concours de recrutement des Administrateurs de 2eme grade	">
+			      <label for="Concours de recrutement des Administrateurs de 2eme grade	">Concours de recrutement des Administrateurs de 2eme grade	</label>
+			    </div>
+			    <div>
+			      <input type="checkbox" id="Concours de recrutement des Adjoints Administratifs de 3ème grade	" name="cnc" value="Concours de recrutement des Adjoints Administratifs de 3ème grade	">
+			      <label for="Concours de recrutement des Adjoints Administratifs de 3ème grade	">Concours de recrutement des Adjoints Administratifs de 3ème grade	</label>
+			    </div>
+			    <div>
+			      <input type="checkbox" id="Concours de recrutement des Adjoints Administratifs de 4ème grade	" name="cnc" value="Concours de recrutement des Adjoints Administratifs de 4ème grade	">
+			      <label for="Concours de recrutement des Adjoints Administratifs de 4ème grade	">Concours de recrutement des Adjoints Administratifs de 4ème grade	</label>
+			    </div>
+			    
+			    <div>
+			      <button type="submit">AJOUTER</button>
+			    </div>
+         
+            
+            
+			  </fieldset>
+			  </form>
+        </div>
+        <fieldset>
+
+    <legend>Candidats</legend>
+    
+    <div>
+       
+       
+       
+              <table >
+                    <tbody>
+                    <tr bgcolor="#ffff80" >
+                    <th style="width:40%">Concours</th>
+                    <th style="width:10%">Candidature</th>
+                    <th style="width:10%">Date Concours</th>
+                    <th style="width:10%">Date Limite Dépôt du dossier</th>
+		            <th style="width:8%">Nombre de postes</th>
+		            <th>Statut</th>
+                    </tr>
+                  
+
+
+             
+               </table>
+            
+    
+    </div>
+        
+    </body>
+			
+            
+
+
+</body>
+</html>

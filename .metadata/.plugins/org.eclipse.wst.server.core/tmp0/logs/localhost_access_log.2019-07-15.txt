@@ -1,0 +1,9 @@
+127.0.0.1 - - [15/Jul/2019:10:17:39 +0100] "GET / HTTP/1.1" 404 956
+0:0:0:0:0:0:0:1 - - [15/Jul/2019:10:17:52 +0100] "GET /test/test.jsp HTTP/1.1" 200 6542
+0:0:0:0:0:0:0:1 - - [15/Jul/2019:10:17:52 +0100] "GET /test/inc/style.css HTTP/1.1" 200 1201
+127.0.0.1 - - [15/Jul/2019:14:16:10 +0100] "GET / HTTP/1.1" 404 956
+0:0:0:0:0:0:0:1 - - [15/Jul/2019:14:16:15 +0100] "GET /test/site.jsp HTTP/1.1" 200 3408
+0:0:0:0:0:0:0:1 - - [15/Jul/2019:14:16:15 +0100] "GET /test/inc/style.css HTTP/1.1" 200 1201
+0:0:0:0:0:0:0:1 - - [15/Jul/2019:14:16:22 +0100] "GET /test/test.jsp HTTP/1.1" 200 6542
+0:0:0:0:0:0:0:1 - - [15/Jul/2019:14:16:31 +0100] "GET /test/CreationCandidat?nomCandidat=&cinCandidat=&prenomCandidat=&ageCandidat=&lieuCandidat=&diplomeCandidat=&adresseCandidat=&emailCandidat=&pays=Rabat-Sal%C3%A9-K%C3%A9nitra&CodepostalCandidat=&pays=Casablanca&telephoneCandidat=&ville=Martil&telephoneCandidat2= HTTP/1.1" 200 718
+0:0:0:0:0:0:0:1 - - [15/Jul/2019:14:16:37 +0100] "GET /test/test.jsp HTTP/1.1" 200 6542

@@ -1,0 +1,112 @@
+<%@ page pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8" />
+		<link type="text/css" rel="stylesheet" href="inc/gest.css" />
+        <title> Espace Admin</title>
+</head>
+<body>
+   
+        <div>
+            <form method="get" action="CreationCandidat">
+            <h2><font color="brown"> Espace Admin</font></h2>
+              
+			  <fieldset>
+			  <label for="Concours">Concours <span class="requis">*</span></label>
+              <input type="text" id="Concours" name="Concours" value="" size="20" maxlength="40" />
+              <br />
+              <br />
+              
+              <label for="DateConcours">DateConcours <span class="requis">*</span></label>
+              <input type="text" id="dateConcours" name="dateConcours" value="" size="20" maxlength="20" />
+              <br />
+              <br />
+              
+              <label for="DateLimite">Date Limite Dépôt du dossier <span class="requis">*</span></label>
+              <input type="text" id="DateLimite" name="DateLimite" value="" size="20" maxlength="20" />
+              <br />
+              <br />
+              
+              <label for="nombredepostes">Nombredepostes <span class="requis">*</span></label>
+              <input type="text" id="nombredepostes" name="nombredepostes" value="" size="20" maxlength="20" />
+              <br />
+              <br />
+              
+              <label for="statut">Statut <span class="requis">*</span></label>
+              <input type="text" id="statut" name="statut" value="" size="20" maxlength="20" />
+              <br />
+              <br />
+              
+              
+              
+              
+			  </fieldset>
+			  </form>
+        </div>
+        <fieldset>
+
+    <legend>Candidats</legend>
+    
+    <div >
+       
+       
+       
+              <table >
+                    <tbody>
+                    <tr bgcolor="#ffff80" >
+                    <th style="width:10%">Prénom</th>
+                    <th style="width:10%">Nom</th>
+                    <th style="width:10%">Diplome</th>
+		            <th style="width:14%">Date de Naissance</th>
+		            
+		            <th style="width:40%">Concours</th>
+		            <th>Action</th>
+                    </tr>
+                  
+                  
+                    
+                  <tr>
+                    <td> 
+                         <span >Elhouari </span>
+
+                    </td>
+                    <td>Jamal </td>
+                    <td>Technicien Informatique</td>
+                    <td> 31-05-2000 </td>
+                    <td>  Concours de recrutement des ingenieurs 1er Grade </td>
+                    <td> <span ><input type="submit" value="Valider"  /> <input type="submit" value="Refuser"  /></span></td>
+
+                  </tr>
+                  
+                  <tr>
+                    <td> 
+                         jalil
+
+                    </td>
+                    <td>nawal </td>
+                    <td>Ingenieur Informatique</td>
+                    <td> 31-05-1990 </td>
+                    <td>  Concours de recrutement des ingenieurs 1er Grade </td>
+                    <td> <span ><input type="submit" value="Valider"  /> <input type="submit" value="Refuser"  /></span></td>
+
+                  </tr>
+                  
+                  
+
+             
+                  
+
+             
+               </tbody></table>
+            
+    
+    </div>
+        
+    </body>
+			
+            
+
+
+</body>
+</html>

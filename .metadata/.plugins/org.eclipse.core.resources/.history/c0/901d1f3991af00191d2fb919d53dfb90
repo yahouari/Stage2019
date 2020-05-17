@@ -1,0 +1,45 @@
+@charset "UTF-8";
+html {
+  font-family: sans-serif;
+}
+
+form {
+  width: 950px;
+  margin: 0 auto;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+fieldset {
+  background: #7cbde0;
+  border: 1px solid blue;
+}
+
+legend {
+  padding: 10px;
+  background: brown;
+  color: #80ffff;
+}
+
+#otherValue
+{
+  display: none;
+}
+
+#other:checked ~ #otherValue
+{
+  display: inline-block;
+}
+table
+{
+    border-collapse: collapse;
+    color: #900;
+   
+}
+td, th /* Mettre une bordure sur les td ET les th */
+{
+    border: 1px solid black;
+    color: #900;
+}

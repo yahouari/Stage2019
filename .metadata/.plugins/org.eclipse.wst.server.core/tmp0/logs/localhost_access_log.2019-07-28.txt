@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [28/Jul/2019:23:58:19 +0100] "GET /test/site.jsp HTTP/1.1" 200 3324
+0:0:0:0:0:0:0:1 - - [28/Jul/2019:23:58:21 +0100] "GET /test/inc/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Jul/2019:23:58:33 +0100] "POST /test/login HTTP/1.1" 200 3472
+0:0:0:0:0:0:0:1 - - [28/Jul/2019:23:58:51 +0100] "POST /test/login HTTP/1.1" 200 6729
+0:0:0:0:0:0:0:1 - - [28/Jul/2019:23:58:52 +0100] "GET /test/inc/gest.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Jul/2019:23:59:25 +0100] "GET /test/GestionServlet?Concours=nizar&dateConcours=22&DateLimite=22&nombredepostes=2&statut=nazari HTTP/1.1" 200 7082
+0:0:0:0:0:0:0:1 - - [28/Jul/2019:23:59:47 +0100] "GET /test/test.jsp HTTP/1.1" 200 8996
